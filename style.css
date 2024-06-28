@@ -490,11 +490,16 @@ width:75%;
 }
 }
 @media screen and (max-width: 850px){
+header nav{
+border: 2px solid black;
+margin: 0;
+width: 100%;
+}
 header nav ul{
 width:60%;
 }    
 header nav .profile{
-display: none;
+display:none;
 }
 .design-hill .dh-container .reactions{
 /*border: 2px solid blue;*/
@@ -517,6 +522,8 @@ height: 70%;
 @media screen and (max-width:750px){
 header nav{
 margin: 0;
+border: 2px solid black;
+width: 100%;
 }
 header nav ul{
 display:none;
